@@ -9,8 +9,7 @@ using namespace std;
 
 int main(){
 
-    printf("\nPattern type 1:\n");
-    printf("----------------\n");
+    printf("\n");
 
     /*  For user interactive code
         int size;
@@ -28,7 +27,7 @@ int main(){
         printf("\n");
     }//end of outer for loop
 
-    for(int i=7; i>0; i--){
+    for(int i=6; i>0; i--){
         for(int j=1; j<8; j++){
             if(j<i)
                 printf(" ");
@@ -37,31 +36,7 @@ int main(){
         }//end of inner for loop
         printf("\n");
     }//end of outer for loop
-    printf("--------------\n");
-
-    printf("\nPattern type 2:\n");
-    printf("--------------\n");
-
-    for(int i=1; i<8; i++){
-        for(int j=1; j<8; j++){
-            if(j<i)
-                printf("  ");
-            else 
-                printf("%d ",j);
-        }//end of innerfor loop
-        printf("\n");
-    }//end of outer for loop
-
-    for(int i=7; i>0; i--){
-        for(int j=1; j<8; j++){
-            if(j<i)
-                printf("  ");
-            else
-                printf("%d ",j);
-        }//end of inner for loop
-        printf("\n");
-    }//end of outer for loop
-    printf("--------------\n");
+    printf("\n");
 
     return 0;
 }//end of main function
